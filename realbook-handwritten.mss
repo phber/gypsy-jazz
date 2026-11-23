@@ -11,8 +11,9 @@
          Chord symbols: Jazz style, superscripted extensions
 
          To get a softer pencil-on-manuscript look instead, swap the two
-         font blocks marked [FONT: GLYPHS] and [FONT: TEXT] for Petaluma /
-         Petaluma Script / alternates are listed at the bottom of this file.
+         font blocks marked [FONT: GLYPHS] and [FONT: TEXT] for Petaluma and
+         Petaluma Script. Exact alternates are listed at the bottom of this
+         file.
          =================================================================== -->
 
     <!-- ========== PAGE: US Letter, generous margins like a fake book ========== -->
@@ -314,7 +315,7 @@
 
          and every "MuseJazz Text" with "Petaluma Script"
          (keep <dynamicsFontFace> on "Petaluma").
-         Petaluma Script runs small / add ~1pt to each font size.
+         Petaluma Script runs small, so add about 1pt to each font size.
          =================================================================== -->
 
   </Style>
