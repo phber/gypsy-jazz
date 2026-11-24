@@ -67,45 +67,47 @@ Idioms to apply:
 - dominant 9ths on turnarounds
 - bIV minor-sixth in the tag (C6 → Cm6 → G6)
 
-## Melody source status (updated after second retry)
+## Melody source status
 
-### Tune 1 - CANDIDATE FOUND, identity unconfirmed
+**All four tunes await melodies supplied by the user.** Web sources are
+exhausted or unreachable; do not spend further effort on them.
 
-`sources/naa-er-det-jul-igjen.abc`, from the John Chambers Scandinavian
-collection. Two variants (keys D and G) that **cross-validate perfectly**:
-identical scale degrees and durations in all 9 bars, checked with
-`abc2mxml.py`.
+### Tune 1 - candidate found and REJECTED
 
-Two caveats, both blocking:
-- The title is the **Danish/Norwegian** form "Naa er det jul igjen", not the
-  Swedish "Nu ar det jul igen". Cognate title does not prove cognate melody.
-  Needs a Swedish ear to confirm.
-- It is in **3/4**, not 4/4. If it is the right tune, the medley plan must
-  change: either the whole medley goes 3/4, or this tune is recast in 4/4.
+A transcription of "Naa er det jul igjen" was retrieved from the John Chambers
+Scandinavian collection (two variants, keys D and G, cross-validating exactly).
+The user confirmed it is the **Danish song, not the Swedish tune**. Discarded.
+Do not reuse it. Lesson: a cognate Scandinavian title does not imply a cognate
+melody.
 
-Form: 8 bars with a 1st/2nd ending (9 bars as transcribed).
-Changes carried in the ABC: G | . | . | D7 | C | G | D7 | G | D7 G.
-
-### Tunes 2, 3, 4 - still no source
-
-All sources failed again:
+### Source attempts - all exhausted or failing
 
 | Source | Result | Retry? |
 |---|---|---|
-| `abcnotation.com/searchTunes` | timeout, 3 queries × 2 attempts | maybe — timeouts may clear |
-| `new.folktunefinder.com/tunes/9454` (Räven) | 403 Forbidden | no — permanent |
-| `folktunefinder.com/tunes/9454` | 403 Forbidden | no — permanent |
-| `folkwiki.se` | 503 Service Unavailable | **yes — likely transient** |
-| `pvv.ntnu.no/~raaness/.../hej_tomtegubber.pdf` | 502 Bad Gateway | **yes — likely transient** |
-| `bethsnotesplus.com` | 200 but lyrics only; melody behind member login | no |
+| `trillian.mit.edu/~jc/music/abc/Scand/` | 200, index read. Only hit was the Danish tune (rejected). No Raven/Raskar, Tomtegubbar or Staffan entry. `XmasSvensk1.abc` read in full: holds only "Ett barn ar fodd denna dag", "Julottan", "Svensk Jul #1" | no - exhausted |
+| `abcnotation.com/searchTunes` | timeout on 4 queries, twice over | no - service unreliable |
+| `folkwiki.se` | 503, four attempts across two days | no |
+| `folktunefinder.com` | 403 Forbidden | no - permanent |
+| `pvv.ntnu.no/.../hej_tomtegubber.pdf` | 502 | no |
+| `bethsnotesplus.com` | 200 but lyrics only, melody paywalled | no |
 
-Also untried: the John Chambers Scandinavian ABC collection mirrored under
-`trillian.mit.edu/~jc/music/abc/Scand` — never reached, because the search
-pages that index it all timed out.
+### Input format the user will send
 
-Do **not** engrave any of these four melodies from memory without marking the
-head as unverified in the score. A wrong melody in notation is worse than no
-melody, because players trust notation.
+Any of: ABC, MusicXML, MIDI, or plain note names with rhythm. For note names,
+per tune: the key, the meter, and bar-by-bar note names with durations, e.g.
+
+```
+Tune: Raven raskar over isen
+Key: C   Meter: 4/4
+bar 1: G8 G8 A8 G8 E4 C4
+bar 2: ...
+```
+
+where the trailing number is the note value (4 = quarter, 8 = eighth,
+8. = dotted eighth, 16 = sixteenth). Octave marks only where it jumps.
+
+Flag any tune that is NOT in 4/4 - the medley assumes one shared tempo in
+4/4, and a 3/4 tune would force either a recast or a plan change.
 
 ## When melodies arrive
 
