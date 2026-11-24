@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+  <work>
+    <work-title>Swedish Lucia Dance Medley</work-title>
+  </work>
+  <identification>
+    <creator type="composer">Traditional Swedish</creator>
+    <creator type="arranger">Hot Club medley in the style of Reinhardt and Grappelli</creator>
+    <rights>Melodies traditional, public domain. MELODIES ENGRAVED FROM RECOLLECTION AND UNVERIFIED - check each head against a trusted source before performance. Harmony, form and arrangement are original.</rights>
+    <encoding>
+      <software>Manouche Lead Sheet Engraver</software>
+      <encoding-date>2026-11-24</encoding-date>
+      <supports element="accidental" type="yes"/>
+      <supports attribute="new-system" element="print" type="yes" value="yes"/>
+    </encoding>
+  </identification>
+  <defaults>
+    <scaling><millimeters>7.2</millimeters><tenths>40</tenths></scaling>
+  </defaults>
+  <credit page="1"><credit-words justify="center" valign="bottom" font-size="9" font-weight="bold">Melodies engraved from recollection and UNVERIFIED - check each head before performance</credit-words></credit>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Violin / Guitar</part-name>
+      <part-abbreviation>Lead</part-abbreviation>
+      <score-instrument id="P1-I1"><instrument-name>Violin</instrument-name></score-instrument>
+      <midi-device id="P1-I1" port="1"/>
+      <midi-instrument id="P1-I1"><midi-channel>1</midi-channel><midi-program>41</midi-program><volume>80</volume><pan>0</pan></midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <print new-system="yes"/>
+      <attributes>
+        <divisions>12</divisions>
+        <key><fifths>1</fifths><mode>major</mode></key>
+        <time><beats>4</beats><beat-type>4</beat-type></time>
+        <clef><sign>G</sign><line>2</line></clef>
+        <measure-style><slash type="start" use-stems="no"/></measure-style>
+      </attributes>
+      <direction placement="above">
+        <direction-type><rehearsal enclosure="square">Intro</rehearsal></direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type><metronome parentheses="no"><beat-unit>quarter</beat-unit><per-minute>180</per-minute></metronome></direction-type>
+        <sound tempo="180"/>
+      </direction>
+      <direction placement="above">
+        <direction-type><words font-style="italic">Swedish Lucia dance medley - bright Hot Club swing, one tempo throughout</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="2">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <harmony print-frame="no"><root><root-step>G</root-step><root-alter>1</root-alter></root><kind text="dim7">diminished-seventh</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="3">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="m7">minor-seventh</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="4">
+      <attributes>
+        <measure-style><slash type="stop"/></measure-style>
+      </attributes>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="9">dominant-ninth</kind></harmony>
+      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><alter>1</alter><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><alter>1</alter><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <barline location="right"><bar-style>light-light</bar-style></barline>
+    </measure>
+    <measure number="5">
+      <print new-system="yes"/>
+      <attributes>
+        <key><fifths>1</fifths><mode>major</mode></key>
+      </attributes>
+      <direction placement="above">
+        <direction-type><rehearsal enclosure="square">A</rehearsal></direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type><words font-style="italic">Nu ar det jul igen</words></direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type><words font-weight="bold">MELODY UNVERIFIED - from recollection, check against your own source before performance</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="6">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="7">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="8">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="9">
+      <print new-system="yes"/>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="10">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="11">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="12">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
+    </measure>
+    <measure number="13">
+      <print new-system="yes"/>
+      <attributes>
+        <measure-style><slash type="start" use-stems="no"/></measure-style>
+      </attributes>
+      <direction placement="above">
+        <direction-type><words font-style="italic">link - G to C</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="14">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="15">
+      <print new-system="yes"/>
+      <attributes>
+        <key><fifths>0</fifths><mode>major</mode></key>
+        <measure-style><slash type="stop"/></measure-style>
+      </attributes>
+      <direction placement="above">
+        <direction-type><rehearsal enclosure="square">B</rehearsal></direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type><words font-style="italic">Raven raskar over isen</words></direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type><words font-weight="bold">MELODY UNVERIFIED - from recollection, check against your own source before performance</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+    </measure>
+    <measure number="16">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="17">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="18">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="19">
+      <print new-system="yes"/>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="20">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m7">minor-seventh</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="21">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="22">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
+    </measure>
+    <measure number="23">
+      <print new-system="yes"/>
+      <attributes>
+        <measure-style><slash type="start" use-stems="no"/></measure-style>
+      </attributes>
+      <direction placement="above">
+        <direction-type><words font-style="italic">link - C to F</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="24">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="25">
+      <print new-system="yes"/>
+      <attributes>
+        <key><fifths>-1</fifths><mode>major</mode></key>
+        <measure-style><slash type="stop"/></measure-style>
+      </attributes>
+      <direction placement="above">
+        <direction-type><rehearsal enclosure="square">C</rehearsal></direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type><words font-style="italic">Hej tomtegubbar</words></direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type><words font-weight="bold">MELODY UNVERIFIED - from recollection, check against your own source before performance</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>F</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="26">
+      <harmony print-frame="no"><root><root-step>F</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="27">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="m7">minor-seventh</kind></harmony>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>F</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="28">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="m7">minor-seventh</kind></harmony>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
+    </measure>
+    <measure number="29">
+      <print new-system="yes"/>
+      <harmony print-frame="no"><root><root-step>F</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="30">
+      <harmony print-frame="no"><root><root-step>F</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="31">
+      <harmony print-frame="no"><root><root-step>B</root-step><root-alter>-1</root-alter></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="32">
+      <harmony print-frame="no"><root><root-step>F</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>F</step><octave>4</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
+    </measure>
+    <measure number="33">
+      <print new-system="yes"/>
+      <attributes>
+        <measure-style><slash type="start" use-stems="no"/></measure-style>
+      </attributes>
+      <direction placement="above">
+        <direction-type><words font-style="italic">link - F to D minor</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind><degree><degree-value>9</degree-value><degree-alter>-1</degree-alter><degree-type text="b9">add</degree-type></degree></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="34">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind><degree><degree-value>9</degree-value><degree-alter>-1</degree-alter><degree-type text="b9">add</degree-type></degree></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="35">
+      <print new-system="yes"/>
+      <attributes>
+        <key><fifths>-1</fifths><mode>minor</mode></key>
+        <measure-style><slash type="stop"/></measure-style>
+      </attributes>
+      <direction placement="above">
+        <direction-type><rehearsal enclosure="square">D</rehearsal></direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type><words font-style="italic">Staffan Stalledrang</words></direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type><words font-weight="bold">MELODY UNVERIFIED - from recollection, check against your own source before performance</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="36">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="37">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="38">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
+    </measure>
+    <measure number="39">
+      <print new-system="yes"/>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>A</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>A</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="40">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="41">
+      <harmony print-frame="no"><root><root-step>E</root-step></root><kind text="m7b5">half-diminished</kind></harmony>
+      <note><pitch><step>B</step><alter>-1</alter><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>F</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="42">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><accidental>sharp</accidental></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type></note>
+    </measure>
+    <measure number="43">
+      <print new-system="yes"/>
+      <attributes>
+        <measure-style><slash type="start" use-stems="no"/></measure-style>
+      </attributes>
+      <barline location="left"><bar-style>heavy-light</bar-style><repeat direction="forward"/></barline>
+      <direction placement="above">
+        <direction-type><rehearsal enclosure="square">E</rehearsal></direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type><words font-style="italic">Solos - D minor swing, repeat as needed</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="44">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="45">
+      <harmony print-frame="no"><root><root-step>E</root-step></root><kind text="m7b5">half-diminished</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="46">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind><degree><degree-value>9</degree-value><degree-alter>-1</degree-alter><degree-type text="b9">add</degree-type></degree></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="47">
+      <print new-system="yes"/>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="48">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="49">
+      <harmony print-frame="no"><root><root-step>E</root-step></root><kind text="m7b5">half-diminished</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="50">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind><degree><degree-value>9</degree-value><degree-alter>-1</degree-alter><degree-type text="b9">add</degree-type></degree></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="51">
+      <print new-system="yes"/>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="52">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="53">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="54">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="55">
+      <print new-system="yes"/>
+      <harmony print-frame="no"><root><root-step>E</root-step></root><kind text="m7b5">half-diminished</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="56">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind><degree><degree-value>9</degree-value><degree-alter>-1</degree-alter><degree-type text="b9">add</degree-type></degree></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="57">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="58">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind><degree><degree-value>9</degree-value><degree-alter>-1</degree-alter><degree-type text="b9">add</degree-type></degree></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <barline location="right"><bar-style>light-heavy</bar-style><repeat direction="backward"/></barline>
+    </measure>
+    <measure number="59">
+      <print new-system="yes"/>
+      <direction placement="above">
+        <direction-type><words font-style="italic">link - D minor back to G</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="60">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <note><pitch><step>B</step><alter>0</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="61">
+      <print new-system="yes"/>
+      <attributes>
+        <key><fifths>1</fifths><mode>major</mode></key>
+        <measure-style><slash type="stop"/></measure-style>
+      </attributes>
+      <direction placement="above">
+        <direction-type><rehearsal enclosure="square">F</rehearsal></direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type><words font-style="italic">Shout chorus - tune 1 reprise, dig in</words></direction-type>
+      </direction>
+      <direction placement="below">
+        <direction-type><words font-weight="bold">MELODY UNVERIFIED - from recollection, check against your own source before performance</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/><staccato/></articulations></notations></note>
+    </measure>
+    <measure number="62">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/><staccato/></articulations></notations></note>
+    </measure>
+    <measure number="63">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/><staccato/></articulations></notations></note>
+    </measure>
+    <measure number="64">
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/></articulations></notations></note>
+      <note><rest/><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="65">
+      <print new-system="yes"/>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/><staccato/></articulations></notations></note>
+    </measure>
+    <measure number="66">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/><staccato/></articulations></notations></note>
+    </measure>
+    <measure number="67">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/><staccato/></articulations></notations></note>
+    </measure>
+    <measure number="68">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="start" number="1"/><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>G</step><octave>5</octave></pitch><duration>24</duration><voice>1</voice><type>half</type><notations><articulations><accent/><staccato/></articulations></notations></note>
+    </measure>
+    <measure number="69">
+      <print new-system="yes"/>
+      <direction placement="above">
+        <direction-type><rehearsal enclosure="square">Tag</rehearsal></direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type><words font-style="italic">Quintette tag - last time only</words></direction-type>
+      </direction>
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <harmony print-frame="no"><root><root-step>G</root-step><root-alter>1</root-alter></root><kind text="dim7">diminished-seventh</kind></harmony>
+      <note><pitch><step>G</step><alter>1</alter><octave>4</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><accidental>sharp</accidental><notations><slur type="start" number="1"/></notations></note>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type></note>
+      <note><pitch><step>F</step><alter>0</alter><octave>5</octave></pitch><duration>3</duration><voice>1</voice><type>16th</type><accidental>natural</accidental><notations><slur type="stop" number="1"/></notations></note>
+      <note><pitch><step>D</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="70">
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>E</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <harmony print-frame="no"><root><root-step>C</root-step></root><kind text="m6">minor-sixth</kind></harmony>
+      <note><pitch><step>E</step><alter>-1</alter><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>flat</accidental></note>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="71">
+      <harmony print-frame="no"><root><root-step>A</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type><accidental>sharp</accidental><notations><articulations><accent/></articulations></notations></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+      <harmony print-frame="no"><root><root-step>D</root-step></root><kind text="7">dominant</kind></harmony>
+      <note><pitch><step>C</step><octave>5</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>A</step><octave>4</octave></pitch><duration>6</duration><voice>1</voice><type>eighth</type></note>
+      <note><pitch><step>F</step><alter>1</alter><octave>4</octave></pitch><duration>12</duration><voice>1</voice><type>quarter</type></note>
+    </measure>
+    <measure number="72">
+      <harmony print-frame="no"><root><root-step>G</root-step></root><kind text="6">major-sixth</kind></harmony>
+      <note><pitch><step>G</step><octave>4</octave></pitch><duration>48</duration><voice>1</voice><type>whole</type><notations><articulations><accent/></articulations><fermata type="upright"/></notations></note>
+      <barline location="right"><bar-style>light-heavy</bar-style></barline>
+    </measure>
+  </part>
+</score-partwise>
