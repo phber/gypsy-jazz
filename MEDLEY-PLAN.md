@@ -67,9 +67,28 @@ Idioms to apply:
 - dominant 9ths on turnarounds
 - bIV minor-sixth in the tag (C6 → Cm6 → G6)
 
-## Blocker: melody sources
+## Melody source status (updated after second retry)
 
-No verified notation obtained. All sources failed:
+### Tune 1 - CANDIDATE FOUND, identity unconfirmed
+
+`sources/naa-er-det-jul-igjen.abc`, from the John Chambers Scandinavian
+collection. Two variants (keys D and G) that **cross-validate perfectly**:
+identical scale degrees and durations in all 9 bars, checked with
+`abc2mxml.py`.
+
+Two caveats, both blocking:
+- The title is the **Danish/Norwegian** form "Naa er det jul igjen", not the
+  Swedish "Nu ar det jul igen". Cognate title does not prove cognate melody.
+  Needs a Swedish ear to confirm.
+- It is in **3/4**, not 4/4. If it is the right tune, the medley plan must
+  change: either the whole medley goes 3/4, or this tune is recast in 4/4.
+
+Form: 8 bars with a 1st/2nd ending (9 bars as transcribed).
+Changes carried in the ABC: G | . | . | D7 | C | G | D7 | G | D7 G.
+
+### Tunes 2, 3, 4 - still no source
+
+All sources failed again:
 
 | Source | Result | Retry? |
 |---|---|---|

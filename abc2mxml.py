@@ -29,11 +29,28 @@ def key_alters(k):
         for s in FLATS[:-f]: d[s] = -1
     return d
 
+def _apply_broken(cur, mark):
+    """ABC broken rhythm: 'a>b' dots a and halves b; 'a<b' is the reverse.
+    Called once the SECOND note of the pair has been appended."""
+    if len(cur) < 2: return
+    a, b = cur[-2], cur[-1]
+    n = len(mark)
+    num, den = (3, 1) if n == 1 else (7, 3) if n == 2 else (15, 7)
+    if mark[0] == '>':
+        total = a['dur'] + b['dur']
+        a['dur'] = total * num // (num + den) if False else a['dur'] * 3 // 2
+        b['dur'] = b['dur'] // 2
+    else:
+        a['dur'] = a['dur'] // 2
+        b['dur'] = b['dur'] * 3 // 2
+
+
 TOKEN = re.compile(r"""
     (?P<chordsym>"[^"]*")
   | (?P<grace>\{[^}]*\})
   | (?P<slurop>\()
   | (?P<slurcl>\))
+  | (?P<broken>[<>]+)
   | (?P<tie>-)
   | (?P<bar>\|\]|\[\||\|\||:\||\|:|\||\[[12])
   | (?P<note>(?P<acc>\^{1,2}|_{1,2}|=)?(?P<letter>[A-Ga-gz])(?P<oct>[',]*)(?P<num>\d+)?(?P<slash>/+)?(?P<den>\d+)?)
@@ -49,11 +66,14 @@ def parse(abc_body, L='1/8', key='C'):
     measures, cur = [], []
     bar_acc = {}                                # accidentals active this bar
     pending_chord = None
+    pending_broken = None
     slur_open = False
     for m in TOKEN.finditer(abc_body):
         kind = m.lastgroup
         if m.group('chordsym'):
             pending_chord = m.group('chordsym').strip('"')
+        elif m.group('broken'):
+            pending_broken = m.group('broken')
         elif m.group('bar'):
             if cur: measures.append(cur); cur = []
             bar_acc = {}
@@ -68,6 +88,7 @@ def parse(abc_body, L='1/8', key='C'):
             if letter == 'z':
                 cur.append({'rest':True,'dur':d,'chord':pending_chord})
                 pending_chord = None
+                if pending_broken: _apply_broken(cur, pending_broken); pending_broken = None
                 continue
             step = letter.upper()
             octv = 5 if letter.islower() else 4
@@ -87,6 +108,8 @@ def parse(abc_body, L='1/8', key='C'):
                         'chord':pending_chord,
                         'slur':'start' if m.group(0) and slur_open else None})
             pending_chord = None
+            if pending_broken:
+                _apply_broken(cur, pending_broken); pending_broken = None
     if cur: measures.append(cur)
     return measures
 
