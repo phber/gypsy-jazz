@@ -1,2 +1,8 @@
 __pycache__/
 *.pyc
+
+# "Let It Snow!" (Styne/Cahn, 1945) is still in copyright and this repo is
+# PUBLIC. The chart and its builder are kept local rather than published.
+# Remove these lines if the repo is made private, or if you decide to push anyway.
+let-it-snow.musicxml
+build_let_it_snow.py
