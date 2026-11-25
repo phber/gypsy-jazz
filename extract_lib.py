@@ -23,7 +23,9 @@ def melody(path, pid, voice='1'):
             if n.find('rest') is not None: evs.append(('r',0,d))
             else:
                 p=n.find('pitch'); al=p.findtext('alter')
+                # capture tie direction so tied notes survive the round trip
+                tie=''.join(sorted(t.get('type') or '' for t in n.findall('tie')))
                 evs.append((p.findtext('step'), int(p.findtext('octave')), d,
-                            int(al) if al else 0))
+                            int(al) if al else 0, tie))
         bars.append(evs)
     return bars, int(k.findtext('fifths')), int(tm.findtext('beats')), int(tm.findtext('beat-type'))

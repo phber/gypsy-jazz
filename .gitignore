@@ -6,3 +6,9 @@ __pycache__/
 # Remove these lines if the repo is made private, or if you decide to push anyway.
 let-it-snow.musicxml
 build_let_it_snow.py
+
+# Same reason: this medley contains Rudolph the Red-Nosed Reindeer
+# (Johnny Marks, 1949) and I Saw Mommy Kissing Santa Claus / Jag sag mamma
+# kyssa tomten (Tommie Connor, 1952), both still in copyright.
+christmas-dance-medley.musicxml
+build_christmas_medley.py
